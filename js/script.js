@@ -3,8 +3,7 @@ let degree = prompt('Введите степень этого числа');
 
 
 function result (number, degree = 1) {
-
-
+    
     if (isNaN(number)){
 
         alert('Type only numbers please')
